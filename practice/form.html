@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-CSS</title>
-    <style>
-      th,
-      td {
-        border: 1px solid;
-      }
-    </style>
   </head>
   <body>
     <form action="/test.html"> <!-- submit, reset 테스트를 위해 입력함 -->
@@ -29,7 +23,11 @@
         <option>인천</option>
         <option>기타</option>
       </select><br>
-      자기소개: <textarea cols="30" rows="5" placeholder="짧게 자기소개를 해주세요."></textarea>
+      자기소개: <textarea cols="30" rows="5" placeholder="짧게 자기소개를 해주세요."></textarea><br>
+      <button type="submit">전송</button><br>
+      <button type="reset">초기화</button><br>
+      <input type="submit" value="전송"><br>
+      <input type="reset" value="초기화">
     </form>
   </body>
 </html>
