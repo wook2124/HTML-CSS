@@ -8,9 +8,9 @@
   <body>
     <form action="/test.html"> <!-- submit, reset 테스트를 위해 입력함 -->
       <h1>Form 관련 요소</h1>
-      아이디: <input type="text" placeholder="아이디를 입력해주세요."><br>
-      패스워드: <input type="password" placeholder="패스워드를 입력해주세요."><br>
-      성별: 남자<input type="radio" name="gender"> 여자<input type="radio" name="gender"><br>
+      <label for="userid">아이디:</label> <input type="text" placeholder="아이디를 입력해주세요." id="userid"><br>
+      <label for="password">패스워드:</label> <input type="password" placeholder="패스워드를 입력해주세요." id="password"><br>
+      성별: <label for="male">남자</label><input type="radio" name="gender" id="male"> <label for="female">여자</label><input type="radio" name="gender" id="female"><br>
       취미: 운동<input type="checkbox" name="hobby"> 영화<input type="checkbox" name="hobby"> 게임<input type="checkbox" name="hobby"><br>
       프로필 사진 업로드: <input type="file"><br>
       <input type="submit" value="전송"><br>
