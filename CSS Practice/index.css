@@ -9,3 +9,7 @@ h1 {
 .css {
     text-decoration: underline;
 }
+
+#foo.bar {
+    color: blueviolet;
+}
