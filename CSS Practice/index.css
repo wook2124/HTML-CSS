@@ -1,15 +1,7 @@
-h1 {
-    color: blueviolet;
+p[class] {
+    color: navy;
 }
 
-.html {
-    color: purple;
-}
-
-.css {
+p[class][id] {
     text-decoration: underline;
-}
-
-#foo.bar {
-    color: blueviolet;
 }
