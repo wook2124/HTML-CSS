@@ -1,7 +1,19 @@
-p[class] {
-    color: navy;
+/* 1, 2번째 요소 */
+p[class~="color"] {
+    font-style: italic;
 }
 
-p[class][id] {
-    text-decoration: underline;
+/* 1, 3번째 요소 */
+p[class^="color"] {
+    font-weight: bolder;
+}
+
+/* 2번째 요소 */
+p[class$="color"] {
+    color: blue;
+}
+
+/* 1, 2, 3번째 요소 */
+p[class*="color"] {
+    font-size: 1.5em;
 }
