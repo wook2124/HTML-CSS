@@ -1,19 +1,19 @@
-/* 1, 2번째 요소 */
+/* 1번째 요소, 공백 */
 p[class~="color"] {
+    color: red;
+}
+
+/* 1, 3번째 요소, color로 시작 */
+p[class^="color"] {
     font-style: italic;
 }
 
-/* 1, 3번째 요소 */
-p[class^="color"] {
-    font-weight: bolder;
-}
-
-/* 2번째 요소 */
+/* 2번째 요소, color로 끝 */
 p[class$="color"] {
     color: blue;
 }
 
-/* 1, 2, 3번째 요소 */
+/* 1, 2, 3번째 요소, color가 포함 */
 p[class*="color"] {
     font-size: 1.5em;
 }
