@@ -5,3 +5,15 @@ li:first-child {
 li:last-child {
     color: blue;
 }
+
+a:focus {
+    background-color: yellow
+}
+
+a:hover {
+    font-weight: bold
+}
+
+a:active {
+    color: hotpink;
+}
