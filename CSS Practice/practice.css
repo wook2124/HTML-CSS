@@ -17,3 +17,15 @@ a:hover {
 a:active {
     color: hotpink;
 }
+
+p::before {
+    content: "###"
+}
+
+p::after {
+    content: "!!!"
+}
+
+p::first-line {}
+
+p::first-letter {}
