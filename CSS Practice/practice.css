@@ -82,3 +82,7 @@ p#page {
     color: red;
 }
 
+/* important */
+p#page {
+    color: red !important;
+}
