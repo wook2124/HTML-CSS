@@ -29,3 +29,19 @@ p::after {
 p::first-line {}
 
 p::first-letter {}
+
+h1 {
+    color: red;
+}
+
+body h1 {
+    color: green;
+}
+
+h1 { ... }  /* 0,0,0,1 */
+body h1 { ... }  /* 0,0,0,2 */
+.grape { ... }  /* 0,0,1,0 */
+*.bright { ... }  /* 0,0,1,0 */
+p.bright em.dark { ... }  /* 0,0,2,2 */
+#page { ... }  /* 0,1,0,0 */
+div#page { ... }  /* 0,1,0,1 */
