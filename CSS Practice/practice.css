@@ -1,3 +1,5 @@
+/*
+
 li:first-child {
     color: red;
 }
@@ -30,6 +32,8 @@ p::first-line {}
 
 p::first-letter {}
 
+*/
+
 h1 {
     color: red;
 }
@@ -38,37 +42,43 @@ body h1 {
     color: green;
 }
 
-/* 0,0,0,1 */
+/* 0,0,0,1 h1 요소 */
 h1 {
     ...
 }
 
-/* 0,0,0,2 */
+/* 0,0,0,2 body, h1 요소 */
 body h1 {
     ...
 }
 
-/* 0,0,1,0 */
+/* 0,0,1,0 class 속성 */
 .grape {
     ...
 }
 
-/* 0,0,1,0 */
+/* 0,0,1,0 class 속성 */
 *.bright {
     ...
 }
 
-/* 0,0,2,2 */
+/* 0,0,2,2 2개의 class 속성과 p, em 요소 */
 p.bright em.dark {
     ...
 }
 
-/* 0,1,0,0 */
+/* 0,1,0,0 id 속성 */
 #page {
     ...
 }
 
-/* 0,1,0,1 */
+/* 0,1,0,1 id 속성과 div 요소 */
 div#page {
     ...
 }
+
+/* 0, 1, 0, 1 id 속성과 p 요소 */
+p#page {
+    color: red;
+}
+
