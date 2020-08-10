@@ -1,12 +1,15 @@
-/* 0, 0, 0, 0, */
+/*
+
 * {
     color: red;
 }
 
-/* 0, 1, 0, 1 id 속성과 h1 요소 */
 h1#page {
     color: slateblue;
 }
+
+*/
+
 
 /*
 
@@ -52,22 +55,27 @@ p {
 */
 
 
+/* 0, 0, 1, 0 class 속성이지만 !important */
 .box {
     color: red !important;
 }
 
+/* 0, 0, 2, 0 class 속성 */
 .index>.in_item {
     color: pink;
 }
 
+/* 0, 0, 1, 2 class 속성과 div, ul 요소 */
 div ul .in_item {
     color: orange;
 }
 
+/* 0, 0, 2, 0 class 속성 */
 .in_item.in1 {
     color: black;
 }
 
+/* 0, 0, 1, 2 class 속성과 p, ul 요소 */
 p+ul.index {
     color: yellow;
 }
