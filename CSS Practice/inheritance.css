@@ -35,3 +35,11 @@ p {
 p {
     color: red;
 }
+
+.wrap {
+    color: orange !important;
+}
+
+.box {
+    color: green !important;
+}
