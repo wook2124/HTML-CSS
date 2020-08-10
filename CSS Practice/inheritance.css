@@ -1,7 +1,9 @@
+/* 0, 0, 0, 0, */
 * {
     color: red;
 }
 
+/* 0, 1, 0, 1 id 속성과 h1 요소 */
 h1#page {
     color: slateblue;
 }
