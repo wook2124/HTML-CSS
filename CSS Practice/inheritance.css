@@ -9,6 +9,7 @@ h1#page {
 }
 
 /*
+
 h1 {
     color: red;
 }
@@ -26,7 +27,11 @@ p#bright {
 p {
     color: red;
 }
+
 */
+
+
+/*
 
 p {
     color: slateblue;
@@ -42,4 +47,27 @@ p {
 
 .box {
     color: green !important;
+}
+
+*/
+
+
+.box {
+    color: red !important;
+}
+
+.index>.in_item {
+    color: pink;
+}
+
+div ul .in_item {
+    color: orange;
+}
+
+.in_item.in1 {
+    color: black;
+}
+
+p+ul.index {
+    color: yellow;
 }
