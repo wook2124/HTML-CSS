@@ -9,9 +9,12 @@ span {
 */
 
 /* border-color: [top] [right] [bottom] [left] */
+
+/* padding: [-top] [-right] [-bottom] [-left] */
+
 .boxmodel {
     border: 10px solid;
     border-color: red blue green yellow;
-    padding: 30px;
+    padding: 0 10px 20px 30px;
     margin: 50px;
 }
