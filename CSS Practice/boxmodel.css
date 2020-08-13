@@ -12,6 +12,7 @@ span {
 
 /* padding: [-top] [-right] [-bottom] [-left] */
 
+/*
 .boxmodel {
     border: 10px solid;
     border-color: red blue green yellow;
@@ -19,3 +20,14 @@ span {
     margin: auto;
     width: 300px;
 }
+*/
+
+.parent {
+    width: 300px;
+    border: 20px solid red;
+  }
+  .child {
+    width: 50%;
+    padding: 20px;
+    border: 10px solid black;
+  }
