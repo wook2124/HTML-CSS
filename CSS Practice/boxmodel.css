@@ -49,6 +49,8 @@ p {
 }
 */
 
+/* inner width의 최종 크기는 500px x 60% x 30%한 90px 
+   그리고 최종 가로 크기는 ( 5px * 2 ) padding까지 합친 100px */
 .wrap {
     width: 500px;
     margin: 0 5px;
