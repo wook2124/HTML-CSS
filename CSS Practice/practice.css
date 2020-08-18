@@ -89,6 +89,7 @@ p#page {
     color: red !important;
 }
 
+/*
 .wrap {
     font-size: 20px;
     line-height: 2;
@@ -101,4 +102,17 @@ p#page {
 
 .child {
     font-size: 15px;
+}
+*/
+
+html {
+    font-size: 16px;
+}
+
+.wrap {
+    font-size: 1.5rem;
+}
+
+.section {
+    font-size: 1.5em;
 }
