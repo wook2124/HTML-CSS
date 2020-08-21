@@ -1,0 +1,30 @@
+body>div {
+    padding: 5px;
+    border: 1px dashed #aaa;
+}
+
+.box {
+    padding: 15px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+}
+
+.none .box {
+    display: none;
+}
+
+.inline .box {
+    display: inline;
+}
+
+.block .box {
+    display: block;
+}
+
+.inline-block .box {
+    display: inline-block;
+}
+
+.list-item .box {
+    display: list-item;
+}
