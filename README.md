@@ -5,4 +5,4 @@
 
 ## Certificate
 
-![](certificate_A20200822-530652 (KR).pdf)
+![](certificate.png)
